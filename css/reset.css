@@ -1,0 +1,60 @@
+/* =========================== Reset CSS =========================== */
+
+/* =========================== reset for header =========================== */
+button {
+  padding: 0;
+  border: none;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-block: 0;
+  padding: 0;
+  padding-inline: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+select {
+  border: none;
+}
+
+option {
+  padding: 0;
+}
+
+/* =========================== reset for sections =========================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: unset;
+  margin: 0;
+  margin-block: 0;
+  font-weight: unset;
+}
+
+p {
+  margin: 0;
+  margin-block: 0;
+}
+
+/* =========================== reset for modal =========================== */
+input {
+  border: none;
+  padding: 0;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
