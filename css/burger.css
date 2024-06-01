@@ -13,6 +13,7 @@
 .burger.active span {
   display: none;
 }
+
 .burger.active::after {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
