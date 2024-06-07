@@ -15,14 +15,13 @@
   font-weight: 700;
 }
 
-.warranty__copy {
-  margin: 20px 0 10px 0;
+.warranty__copy:first-of-type {
+  margin-top: 20px;
   font-size: 14px;
-
 }
 
-.warranty__copy:last-child {
-  margin: 0;
+.warranty__copy {
+  margin-top: 10px;
 }
 
 .warranty__image-block {
