@@ -5,13 +5,9 @@
 /* .clients__wrapper {} */
 
 .clients__brands {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
   gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.clients__brand {
-  width: 130px;
-  height: 47px;
-}
+/* .clients__brand {} */
