@@ -58,7 +58,7 @@
   user-select: none;
 }
 
-.form__checkbox input + span::before {
+.form__checkbox input::before {
   content: "";
   display: inline-block;
   width: 14px;
@@ -70,14 +70,14 @@
   vertical-align: middle;
 }
 
-.form__checkbox input:checked + span::before {
+.form__checkbox input:checked::before {
   background: #00a1ff;
 }
 
-.form__checkbox input:checked + span::after {
+.form__checkbox input:checked::after {
   content: "";
   position: absolute;
-  top: 3px;
+  top: 5px;
   left: 5px;
   display: block;
   width: 5px;
